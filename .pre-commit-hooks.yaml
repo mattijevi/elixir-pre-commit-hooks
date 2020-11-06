@@ -3,10 +3,10 @@
   description: Formats Elixir files with mix format.
   language: system
   entry: mix format
-  files: \.ex$
+  files: \.exs?$
 - id: mix-test
   name: mix test
   description: Runs Elixir tests with mix test.
   language: system
   entry: mix test
-  files: \.ex$
+  files: \.exs?$
