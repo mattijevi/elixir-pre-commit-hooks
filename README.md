@@ -11,7 +11,7 @@ Add the following to your .pre-commit-config.yaml:
 repos:
   - repo: https://gitlab.com/jvenom/elixir-pre-commit-hooks
     rev: v1.0.0 # replace with the version you want to use
-    hooks: # Specify the hooks you want to use here
+    hooks: # specify the hooks you want to use here
       - id: mix-format
       - id: mix-test
 ```
