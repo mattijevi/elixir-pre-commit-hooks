@@ -40,4 +40,4 @@ hooks:
 
 ## Other projects
 
-[elixir-pre-commit](https://github.com/dwyl/elixir-pre-commit) is an Elixir module that provides a pure-Elixir implementation of pre-commit Git hooks. You might want to use that if you only want mix tasks as your pre-commit hooks. If you want to use other pre-commit hooks (like those [here](https://github.com/pre-commit/pre-commit-hooks)) _and_ mix tasks, you should use this repo.
+[elixir-pre-commit](https://github.com/dwyl/elixir-pre-commit) is an Elixir module that provides a pure-Elixir implementation of pre-commit Git hooks. You might want to use that if you only want mix tasks as your pre-commit hooks. If you want to use other, non-mix pre-commit hooks (like [these](https://github.com/pre-commit/pre-commit-hooks)) _and_ mix tasks, you should use this repo.
