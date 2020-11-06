@@ -4,7 +4,7 @@
 
 ## Usage
 
-You'll need to have both mix and [pre-commit](https://pre-commit.com/) installed (meaning you'll need to have Python installed also, since `pre-commit` is a Python package). I'd recommend installing `pre-commit` with [pipx](https://pipxproject.github.io/pipx/), so that it's globally available across all your projects. See [pre-commit's documenation](https://pre-commit.com/#install) for more detailed installation and usage instructions.
+You'll need to have both mix and [pre-commit](https://pre-commit.com/) installed (meaning you'll need to have Python installed also, since `pre-commit` is a Python package). I'd recommend installing `pre-commit` with [pipx](https://pipxproject.github.io/pipx/), so that it's globally available across all your projects. See [pre-commit's documentation](https://pre-commit.com/#install) for more detailed installation and usage instructions.
 
 Add the following to your .pre-commit-config.yaml:
 ```yaml
