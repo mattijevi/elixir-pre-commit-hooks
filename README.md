@@ -31,13 +31,13 @@ Runs `mix test` when an `.ex` or `.exs` file is included in the commit.
 
 ## Passing Options to Hooks
 
-Include an `args` key in the hook's configuration in .pre-commit-config.yaml. The value of the key should be a list of the arguments you want to pass.
+If you want to pass additional options to the hook, you can include an `args` key in the hook's configuration in .pre-commit-config.yaml. The value of the key should be a list of the arguments you want to pass.
 ```yaml
 hooks:
   - id: mix-test
     args: [--trace, --exclude, my-exclude-filter]
 ```
 
-## Other projects
+## Other Projects
 
 [elixir-pre-commit](https://github.com/dwyl/elixir-pre-commit) is an Elixir module that provides a pure-Elixir implementation of pre-commit Git hooks. You might want to use that if you only want mix tasks as your pre-commit hooks. If you want to use other, non-mix pre-commit hooks (like [these](https://github.com/pre-commit/pre-commit-hooks)) _and_ mix tasks, you should use this repo.
