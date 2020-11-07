@@ -1,5 +1,7 @@
 # elixir-pre-commit-hooks
 
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
+
 [Pre-commit](https://pre-commit.com/) hooks for Elixir.
 
 ## Usage
