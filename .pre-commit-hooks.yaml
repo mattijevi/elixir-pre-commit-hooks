@@ -10,4 +10,3 @@
   language: system
   entry: mix test
   files: \.ex$
-  exclude: mix.exs # Fix https://gitlab.com/jvenom/elixir-pre-commit-hooks/-/issues/1
