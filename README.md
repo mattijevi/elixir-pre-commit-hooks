@@ -29,7 +29,7 @@ $ pre-commit install
 Runs `mix format` when an `.ex` or `.exs` file is included in the commit.
 
 #### `mix-test`
-Runs `mix test` when an `.ex` or `.exs` file is included in the commit.
+Runs `mix test` when an `.ex` file is included in the commit.
 
 ## Passing Options to Hooks
 
