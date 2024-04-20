@@ -3,7 +3,7 @@
   description: Formats Elixir files with mix format.
   language: system
   entry: mix format
-  files: \.exs?$
+  files: \.(exs|heex)?$
 - id: mix-test
   name: mix test
   description: Runs Elixir tests with mix test.
